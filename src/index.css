@@ -37,7 +37,7 @@ body{
     background: #070707;
     overflow-x: hidden;
     position: relative;
-   
+   width: 100vw;
 }
 
 .home{
