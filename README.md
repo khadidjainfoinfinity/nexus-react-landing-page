@@ -1,6 +1,9 @@
 # marketing agency landing page
 
-simple agency landing page using reactjs libraries & spline.design 
+simple agency landing page including the sections : about us, services , reviews and contact using html , css , JavaScript 
+
+#### framework & libraries : 
+react js , tilt.js , spline.design community 
 
 ## preview 
 [click to see](https://khadidjainfoinfinity.github.io/nexus-react-landing-page/)
