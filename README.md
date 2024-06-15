@@ -18,4 +18,9 @@ react js , tilt.js , spline.design community
 <hr>
 <img src="https://i.postimg.cc/g2nfRCmx/IMG-20240615-211213.jpg" alt="hhh u cant see">
 
-### big screens :
+### desktop screens :
+
+<img src="https://i.postimg.cc/8C8NCpMp/img.png" alt="hhh u cant see">
+
+<hr>
+<img src="https://i.postimg.cc/sx2RLvdc/im2.png" alt="hhh u cant see">
