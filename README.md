@@ -1,8 +1,17 @@
-# React + Vite
+# marketing agency landing page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+simple agency landing page using reactjs libraries & spline.design 
 
-Currently, two official plugins are available:
+## preview 
+[click to see]()
+## screenshots 
+Small screens :
+<img src="https://i.postimg.cc/L6ycJ9Kd/IMG-20240615-211350.jpg" alt="hhh u cant see">
+<hr>
+<img src="https://i.postimg.cc/8z9xbZzt/IMG-20240615-211303.jpg" alt="hhh u cant see">
+<hr>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img src="https://i.postimg.cc/R0typw39/IMG-20240615-211240.jpg" alt="hhh u cant see">
+<hr>
+<img src="https://i.postimg.cc/g2nfRCmx/IMG-20240615-211213.jpg" alt="hhh u cant see">
+<hr>
