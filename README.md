@@ -9,18 +9,14 @@ react js , tilt.js , spline.design community
 [click to see](https://khadidjainfoinfinity.github.io/nexus-react-landing-page/)
 ## screenshots 
 ### Small screens :
-<img src="https://i.postimg.cc/L6ycJ9Kd/IMG-20240615-211350.jpg" alt="hhh u cant see">
-<hr>
-<img src="https://i.postimg.cc/8z9xbZzt/IMG-20240615-211303.jpg" alt="hhh u cant see">
-<hr>
-
-<img src="https://i.postimg.cc/R0typw39/IMG-20240615-211240.jpg" alt="hhh u cant see">
-<hr>
-<img src="https://i.postimg.cc/g2nfRCmx/IMG-20240615-211213.jpg" alt="hhh u cant see">
+<img src="https://i.postimg.cc/L6ycJ9Kd/IMG-20240615-211350.jpg" alt="hhh u cant see" style="width: 300px">
+<img src="https://i.postimg.cc/8z9xbZzt/IMG-20240615-211303.jpg" alt="hhh u cant see"  style="width: 300px">
+<img src="https://i.postimg.cc/R0typw39/IMG-20240615-211240.jpg" alt="hhh u cant see" style="width: 300px">
+<img src="https://i.postimg.cc/g2nfRCmx/IMG-20240615-211213.jpg" alt="hhh u cant see" style="width: 300px">
 
 ### desktop screens :
 
-<img src="https://i.postimg.cc/8C8NCpMp/img.png" alt="hhh u cant see">
+<img src="https://i.postimg.cc/8C8NCpMp/img.png" alt="hhh u cant see" >
 
 <hr>
 <img src="https://i.postimg.cc/sx2RLvdc/im2.png" alt="hhh u cant see">
