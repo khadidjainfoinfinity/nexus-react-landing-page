@@ -7,6 +7,8 @@ const About = () => {
     VanillaTilt.init(elements, {
       max: 25,
       speed: 400,
+      glare: true,
+      "max-glare": .18,
     });
 
     return () => {

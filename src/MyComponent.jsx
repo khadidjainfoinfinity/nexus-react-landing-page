@@ -1,6 +1,11 @@
 import { useState } from 'react';
 import './MyComponent.css';
 
+// Import images
+import img1 from './images/img1.jpg';
+import img2 from './images/img2.jpg';
+import img3 from './images/img3.jpg';
+
 const MyComponent = () => {
   const [toggleState, setToggleState] = useState(1);
 
@@ -16,7 +21,7 @@ const MyComponent = () => {
           className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
           onClick={() => toggleTab(1)}
         >
-          Business Owners
+          Owners
         </button>
         <button
           className={toggleState === 2 ? "tabs active-tabs" : "tabs"}
@@ -33,9 +38,7 @@ const MyComponent = () => {
       </div>
 
       <div className="content-tabs">
-        <div
-          className={toggleState === 1 ? "content active-content" : "content"}
-        >
+        <div className={toggleState === 1 ? "content active-content" : "content"}>
           <h2>Content 1</h2>
           <hr />
           <p>
@@ -45,9 +48,7 @@ const MyComponent = () => {
           </p>
         </div>
 
-        <div
-          className={toggleState === 2 ? "content active-content" : "content"}
-        >
+        <div className={toggleState === 2 ? "content active-content" : "content"}>
           <h2>Content 2</h2>
           <hr />
           <p>
@@ -59,9 +60,7 @@ const MyComponent = () => {
           </p>
         </div>
 
-        <div
-          className={toggleState === 3 ? "content active-content" : "content"}
-        >
+        <div className={toggleState === 3 ? "content active-content" : "content"}>
           <h2>Content 3</h2>
           <hr />
           <p>
@@ -75,127 +74,125 @@ const MyComponent = () => {
         </div>
         
         <div className="container__right">
-        <div className="card">
-          <img src="./img1.jpg" alt="user" />
-          <div className="card__content">
-            <span><i className="ri-double-quotes-l"></i></span>
-            <div className="card__details">
-              <p>
-                We had a great time collaborating with the Filament team. They
-                have my high recommendation!
-              </p>
-              <h4>- Marnus Stephen</h4>
+          <div className="card">
+            <img src={img1} alt="user" />
+            <div className="card__content">
+              <span><i className="ri-double-quotes-l"></i></span>
+              <div className="card__details">
+                <p>
+                  We had a great time collaborating with the Filament team. They
+                  have my high recommendation!
+                </p>
+                <h4>- Marnus Stephen</h4>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="card">
-          <img src="./img2.jpg" alt="user" />
-          <div className="card__content">
-            <span><i className="ri-double-quotes-l"></i></span>
-            <div className="card__details">
-              <p>
-                The team drastically improved our product&apos;s user experience &
-                increased our business outreach.
-              </p>
-              <h4>- Andrew Jettpace</h4>
+          <div className="card">
+            <img src={img2} alt="user" />
+            <div className="card__content">
+              <span><i className="ri-double-quotes-l"></i></span>
+              <div className="card__details">
+                <p>
+                  The team drastically improved our product&apos;s user experience &amp;
+                  increased our business outreach.
+                </p>
+                <h4>- Andrew Jettpace</h4>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="card">
-          <img src="./img1.jpg" alt="user" />
-          <div className="card__content">
-            <span><i className="ri-double-quotes-l"></i></span>
-            <div className="card__details">
-              <p>
-                I absolutely loved working with the Filament team. Complete
-                experts at what they do!
-              </p>
-              <h4>- Stacy Stone</h4>
+          <div className="card">
+            <img src={img1} alt="user" />
+            <div className="card__content">
+              <span><i className="ri-double-quotes-l"></i></span>
+              <div className="card__details">
+                <p>
+                  I absolutely loved working with the Filament team. Complete
+                  experts at what they do!
+                </p>
+                <h4>- Stacy Stone</h4>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="card">
-          <img src="./img3.jpg" alt="user" />
-          <div className="card__content">
-            <span><i className="ri-double-quotes-l"></i></span>
-            <div className="card__details">
-              <p>
-                I absolutely loved working with the Filament team. Complete
-                experts at what they do!
-              </p>
-              <h4>- Stacy Stone</h4>
+          <div className="card">
+            <img src={img3} alt="user" />
+            <div className="card__content">
+              <span><i className="ri-double-quotes-l"></i></span>
+              <div className="card__details">
+                <p>
+                  I absolutely loved working with the Filament team. Complete
+                  experts at what they do!
+                </p>
+                <h4>- Stacy Stone</h4>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="card">
-          <img src="./img2.jpg" alt="user" />
-          <div className="card__content">
-            <span><i className="ri-double-quotes-l"></i></span>
-            <div className="card__details">
-              <p>
-                I absolutely loved working with the Filament team. Complete
-                experts at what they do!
-              </p>
-              <h4>- Stacy Stone</h4>
+          <div className="card">
+            <img src={img2} alt="user" />
+            <div className="card__content">
+              <span><i className="ri-double-quotes-l"></i></span>
+              <div className="card__details">
+                <p>
+                  I absolutely loved working with the Filament team. Complete
+                  experts at what they do!
+                </p>
+                <h4>- Stacy Stone</h4>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="card">
-          <img src="./img3.jpg" alt="user" />
-          <div className="card__content">
-            <span><i className="ri-double-quotes-l"></i></span>
-            <div className="card__details">
-              <p>
-                I absolutely loved working with the Filament team. Complete
-                experts at what they do!
-              </p>
-              <h4>- Stacy Stone</h4>
+          <div className="card">
+            <img src={img3} alt="user" />
+            <div className="card__content">
+              <span><i className="ri-double-quotes-l"></i></span>
+              <div className="card__details">
+                <p>
+                  I absolutely loved working with the Filament team. Complete
+                  experts at what they do!
+                </p>
+                <h4>- Stacy Stone</h4>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="card">
-          <img src="./img1.jpg" alt="user" />
-          <div className="card__content">
-            <span><i className="ri-double-quotes-l"></i></span>
-            <div className="card__details">
-              <p>
-                I absolutely loved working with the Filament team. Complete
-                experts at what they do!
-              </p>
-              <h4>- Stacy Stone</h4>
+          <div className="card">
+            <img src={img1} alt="user" />
+            <div className="card__content">
+              <span><i className="ri-double-quotes-l"></i></span>
+              <div className="card__details">
+                <p>
+                  I absolutely loved working with the Filament team. Complete
+                  experts at what they do!
+                </p>
+                <h4>- Stacy Stone</h4>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="card">
-          <img src="./img2.jpg" alt="user" />
-          <div className="card__content">
-            <span><i className="ri-double-quotes-l"></i></span>
-            <div className="card__details">
-              <p>
-                I absolutely loved working with the Filament team. Complete
-                experts at what they do!
-              </p>
-              <h4>- Stacy Stone</h4>
+          <div className="card">
+            <img src={img2} alt="user" />
+            <div className="card__content">
+              <span><i className="ri-double-quotes-l"></i></span>
+              <div className="card__details">
+                <p>
+                  I absolutely loved working with the Filament team. Complete
+                  experts at what they do!
+                </p>
+                <h4>- Stacy Stone</h4>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="card">
-          <img src="./img3.jpg" alt="user" />
-          <div className="card__content">
-            <span><i className="ri-double-quotes-l"></i></span>
-            <div className="card__details">
-              <p>
-                I absolutely loved working with the Filament team. Complete
-                experts at what they do!
-              </p>
-              <h4>- Stacy Stone</h4>
+          <div className="card">
+            <img src={img3} alt="user" />
+            <div className="card__content">
+              <span><i className="ri-double-quotes-l"></i></span>
+              <div className="card__details">
+                <p>
+                  I absolutely loved working with the Filament team. Complete
+                  experts at what they do!
+                </p>
+                <h4>- Stacy Stone</h4>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      </div>
-
-     
     </div>
   );
 };

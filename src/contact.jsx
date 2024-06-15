@@ -7,15 +7,11 @@ const Contact = () => {
         <h1>contact</h1>
     <div className="container2">
       <main className="row1">
-        {/* ******* Left Section (Column) Starts ******* */}
         <section className="col left">
-          {/* ******* Title Starts ******* */}
           <div className="contactTitle">
             <h2>Get In Touch</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
           </div>
-          {/* ******* Title Ends ******* */}
-          {/* ******* Contact Info Starts ******* */}
           <div className="contactInfo">
             <div className="iconGroup">
               <div className="icon">
@@ -32,7 +28,7 @@ const Contact = () => {
               </div>
               <div className="details">
                 <span>Email</span>
-                <span>name.tutorial@gmail.com</span>
+                <span>nexus@gmail.com</span>
               </div>
             </div>
             <div className="iconGroup">
@@ -45,10 +41,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          {/* ******* Contact Info Ends ******* */}
         </section>
-        {/* ******* Left Section (Column) Ends ******* */}
-        {/* ******* Right Section (Column) Starts ******* */}
         <section className="col right">
           {/* ******* Form Starts ******* */}
           <form className="messageForm">
@@ -72,9 +65,7 @@ const Contact = () => {
               <button>Send Message</button>
             </div>
           </form>
-          {/* ******* Form Ends ******* */}
         </section>
-        {/* ******* Right Section (Column) Ends ******* */}
       </main>
     </div>
     </Box>

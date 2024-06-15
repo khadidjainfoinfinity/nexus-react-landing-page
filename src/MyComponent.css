@@ -29,7 +29,7 @@
     color: #fff;
     border: .2vw solid rgba(224, 252, 255, 0.048);
     border-bottom: none;
-    font-size: 1.5vw;
+    font-size: medium;
     letter-spacing: 1px;
     font-weight: 600;
   }
@@ -86,11 +86,11 @@
     height: 100%;
     display: none;
     line-height: 1.9;
-    font-size: 1.3vw;
+    font-size: medium;
   }
   .content h2 {
     padding: 0px 0 5px 0px;
-    font-size: 2vw;
+    font-size: larger;
     font-weight: 600;
   }
 
@@ -110,25 +110,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   .container__right {
     display: grid;
     gap: 1vw;
@@ -145,8 +126,8 @@
   }
   
   .card img {
-    width: 5vw;
-    height: 5vw;
+    width: 4em;
+    height: 4em;
     border-radius: 100%;
   }
   
@@ -163,83 +144,37 @@
     font-style: italic;
     color: var(--text-dark);
     margin-bottom: 1vw;
-    font-size: smaller;
+    font-size: medium;
   }
   
   .card__details h4 {
     text-align: right;
-    font-size: 1vw;
+    font-size: smaller;
     font-weight: 500;
   }
   
-  @media(max-width: 1150px){
-    .card__details h4 {
-      font-size: 1.2vw;
-    }
+  @media(max-width: 1100px){
+   .card img {
+    width: 3em;
+    height: 3em;
+    border-radius: 100%;
+  }
+  
     
   }  
-   @media(max-width: 950px){
-    .card__details h4 {
-      font-size: 1.5vw;
+   @media(max-width: 650px){
+    .tabs {
+      font-size: small;
     }
-    
-  } 
 
-   @media(max-width: 850px){
-    .card__details h4 {
-      font-size: 1.7vw;
-    }
-    
-  }
-  @media(max-width: 710px){
-    .card__details h4 {
-      font-size: 1.7vw;
-    }
-    .content h2,
-    .tabs{
-      font-size: 1.9vw;
-    }
-    
-  } 
-  @media(max-width: 680px){
-    .card__details h4 {
-      font-size: 1.8vw;
-    }
-    .content h2,
-    .tabs{
-      font-size: 2vw;
-    }
-    .container {
-      width: 90vw;
-    }
-    
     .card img {
-      width: 6vw;
-      height: 6vw;
-      margin-right: 2vw;
+      width: 2.5em;
+      height: 2.5em;
+    }
+    
+    .card__details p {
+      font-size: small;
     }
     
     
   } 
-   @media(max-width: 550px){
-
-    .card__details h4 {
-      font-size: 2.2vw;
-    }
-
-    .content h2,
-    .tabs{
-      font-size: 2.5vw;
-    }
-    .container {
-      width: 92vw;
-    }
-    
-    .card img {
-      width: 7vw;
-      height: 7vw;
-      margin-right: 2vw;
-    }
-    
-    
-  }
