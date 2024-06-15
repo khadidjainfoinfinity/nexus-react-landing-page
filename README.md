@@ -3,7 +3,7 @@
 simple agency landing page using reactjs libraries & spline.design 
 
 ## preview 
-[click to see]()
+[click to see](khadidjainfoinfinity/react-marketing-agency)
 ## screenshots 
 Small screens :
 <img src="https://i.postimg.cc/L6ycJ9Kd/IMG-20240615-211350.jpg" alt="hhh u cant see">
